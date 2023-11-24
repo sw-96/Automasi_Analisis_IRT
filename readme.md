@@ -1,3 +1,5 @@
+# Dokumentasi Automasi Analisis IRT
+## Updated: 24 Nov 2023
 ### I. Struktur Folder Try Out
 #### 1. 0_penambah_tanggal_tes.R
 >Script ini berfungsi untuk menambahkan kolom tanggal_tes pada data yang belum berisi tanggal_tes. Tanggal yang digunakan dapat disesuaikan dengan kebutuhan.
