@@ -172,9 +172,9 @@ for (i in subtes_tps){
   skor_akhir_lengkap <- cbind(skor_akhir_lengkap, skor_akhir)
   colnames(skor_akhir_lengkap)[ncol(skor_akhir_lengkap)] <- i
 
-  skor_akhir_lengkap$Tanggal_Tes <- as.Date(skor_akhir_lengkap$Tanggal_Tes, format = "%Y/%m/%d")
+  #skor_akhir_lengkap$Tanggal_Tes <- as.Date(skor_akhir_lengkap$Tanggal_Tes, format = "%Y/%m/%d")
 
-  write_xlsx(skor_akhir_lengkap, "nilai_akhir_lengkap.xlsx")
+  #write_xlsx(skor_akhir_lengkap, "nilai_akhir_lengkap.xlsx")
 
 }
 
@@ -310,9 +310,9 @@ for (i in subtes_tl){
   skor_akhir_lengkap <- cbind(skor_akhir_lengkap, skor_akhir)
   colnames(skor_akhir_lengkap)[ncol(skor_akhir_lengkap)] <- i
   
-  skor_akhir_lengkap$Tanggal_Tes <- as.Date(skor_akhir_lengkap$Tanggal_Tes, format = "%Y/%m/%d")
+  #skor_akhir_lengkap$Tanggal_Tes <- as.Date(skor_akhir_lengkap$Tanggal_Tes, format = "%Y/%m/%d")
   
-  write_xlsx(skor_akhir_lengkap, "nilai_akhir_lengkap.xlsx")
+  #write_xlsx(skor_akhir_lengkap, "nilai_akhir_lengkap.xlsx")
 
 }
 
