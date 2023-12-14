@@ -1,5 +1,9 @@
 # Dokumentasi Automasi Analisis IRT
-## Updated: 24 Nov 2023
+## Updated: 14 Des 2023
+
+### Pre-IRT analysis
+Gunakan 00_scanning_files.R untuk menghapus file duplikasi sebelum dipindahkan ke folder input_tl & input_tps.
+
 ### I. Struktur Folder Try Out
 #### 1. 0_penambah_tanggal_tes.R
 >Script ini berfungsi untuk menambahkan kolom tanggal_tes pada data yang belum berisi tanggal_tes. Tanggal yang digunakan dapat disesuaikan dengan kebutuhan.
@@ -41,3 +45,4 @@ File-file csv yang memuat probabilitas tiap soal untuk dijawab dengan benar
 5. Membuka file "a_data_preparation.R" & "b_automasi_analisis_irt.R" menggunakan Rstudio
 6. Menjalankan "a_data_preparation.R" untuk mempersiapkan data yang akan digunakan dalam analis irt
 7. Menjalankan "b_automasi_analisis_irt.R" untuk melakukan analisis irt dan memperoleh nilai seluruh siswa untuk setiap subtes beserta reratanya
+8. Langkah 5-6 dapat dilakukan juga menggunakan all_in_one.R
