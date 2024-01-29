@@ -23,10 +23,10 @@ Gunakan 00_scanning_files.R untuk menghapus file duplikasi sebelum dipindahkan k
 2 file-file yang mengandung nilai seluruh siswa tiap uji irt tiap sub tes & uji anova
 #### 7. input_tl
 >Berisi:
-data-data respon jawaban siswa untuk tes literasi
+data-data respon jawaban siswa untuk tes literasi (termasuk dummy data; jangan dihapus)
 #### 8. input_tps
 >Berisi:
-data-data respon jawaban siswa untuk tes potensi skolastik
+data-data respon jawaban siswa untuk tes potensi skolastik (termasuk dummy data; jangan dihapus)
 #### 9. main_database
 >Berisi:
 1 Database_TL.xlsx; yang menampung seluruh data tes literasi untuk "tes yang sama"
