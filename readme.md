@@ -8,6 +8,7 @@ Tampilan Console yang menunjukkan bahwa tidak ada duplikasi file
 >Warning messages:
 >1: In file.remove(paste0(dir_folder, "/", nama_file)) :
 >  cannot remove file '/Users/nama_user/Downloads/tryout_january_2024/tps/NA', reason 'No such file or directory'
+
 >2: In file.remove(paste0(dir_folder, "/", nama_file)) :
 >  cannot remove file '/Users/nama_user/Downloads/tryout_january_2024/tps/', reason 'Directory not empty'
 
