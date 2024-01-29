@@ -4,6 +4,13 @@
 ### Post-Download Hasil Tryout
 Gunakan 00_scanning_files.R untuk menghapus file duplikasi sebelum dipindahkan ke folder input_tl & input_tps. Hal ini dilakukan karena ada kasus dimana 1 orang dapat melakukan submit jawaban lebih dari satu kali.
 
+Tampilan Console yang menunjukkan bahwa tidak ada file duplikasi
+Warning messages:
+1: In file.remove(paste0(dir_folder, "/", nama_file)) :
+  cannot remove file '/Users/windusara/Downloads/tryout_january_2024/tps/NA', reason 'No such file or directory'
+2: In file.remove(paste0(dir_folder, "/", nama_file)) :
+  cannot remove file '/Users/windusara/Downloads/tryout_january_2024/tps/', reason 'Directory not empty'
+
 ### I. Struktur Folder Try Out
 #### 1. 0_penambah_tanggal_tes.R
 >Script ini berfungsi untuk menambahkan kolom tanggal_tes pada data yang belum berisi tanggal_tes. Tanggal yang digunakan dapat disesuaikan dengan kebutuhan.
